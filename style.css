@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: Poppins ,sans-serif;
+}
+
+.main{
+      width: 100%;
+      height: 600px;
+      display: flex;
+      color: white;
+      
+}
+
+.parent1{
+      width: 55%;
+      height: 100%;
+      background: #1A2E35;
+      display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    padding: 0% 15%;
+      
+}
+
+.parent1 .navbar{
+      position: absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     justify-content: space-between;
+}
+
+.parent1 .navbar .links{
+      position: absolute;
+      right: 0;
+      top: 0;
+      display: flex;
+     justify-content: space-between;
+      gap: 80px;
+      padding: 10px 15px;
+      margin-right: 40px;
+}
+
+.parent1 .navbar .links a{
+      text-decoration: none;
+      font-size: 17px;
+      color: wheat;
+      
+}
+
+.parent1 h1{
+      font-family: Roboto;
+      font-size: 28px;
+      text-align: start;
+}
+.parent1 h4{
+      font-family: sans-serif;
+      font-size: 18px;
+      text-align: start;
+}
+
+.buttons button{
+      padding: 10px 50px;
+      text-align: center;
+      font-size: 16px;
+      font-family: Roboto;
+      border-radius: 5px solid black;
+      font-weight: 400;
+      height: 40px;
+      width: 200px;
+      text-align: center;
+     
+}
+
+#b1{
+      background: red;
+      color: wheat;
+
+}
+
+#b1:hover{
+     
+      background: #1A2E35;
+      color: red;
+      border:1px solid red;
+}
+
+#b2{
+      background: white;
+      color: black;
+}
+
+#b2:hover{
+      background: #1A2E35;
+      color: white;
+      border:1px solid white;
+}
+.parent2{
+      width: 45%;
+      height: 100%;
+      background: #1CBBB4;
+}
+
+.parent2 img{
+      width: 90%;
+      padding: 130px 10px;
+}
+
+.parent1 .buttons{
+      display: flex;
+      gap: 10px;
+}
+.parent1 .dots{
+      position: absolute;
+      display: flex;
+      gap: 4px; 
+     align-items: center;
+      justify-content: start;
+      bottom: -25px;
+}
+
+.dot1 ,.dot2{
+      height: 40px;
+      width: 40px;
+      background:#1CBBB4;
+      border-radius: 60%;
+      font-style: 30px;
+      text-align: center;
+}
+.dot, .dot2 i{
+      text-align: center;
+      font-style: 28px;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+}
+ .dot1:hover{
+      background: red;
+      cursor: pointer;
+ }
+ .dot2:hover{
+      background: red;
+      cursor: pointer;
+}
+
+.about{
+      height: 500px;
+      width: 100%;
+      background: whitesmoke;
+      display: flex;
+}
+
+.about .banner{
+      width: 45%;
+      height: 100%;
+      background: #FFFFFF;
+    
+   
+}
+
+.about .banner img{
+      background-position: cover;
+      background-repeat: no-repeat;
+   padding-top: 40px;
+   width: 100%;
+   height: 90%;
+   padding-top: 70px;
+}
+
+.about .content{
+      width: 55%;
+      height: 100%;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    padding: 0px 10px;
+      
+}
+
+.about .banner h1{
+      font-family: Roboto;
+      font-weight: 100;
+      margin-bottom: 10px;
+      font-size: 29px;
+}
+.about .banner p{
+      margin-bottom: 20px;
+      font-size: 13px;
+}
+
+.about .buttons{
+display: flex;
+gap: 20px;
+width: auto;
+height: auto;
+
+}
+#read{
+      color:white ;
+      background: red;
+}
+#hire{
+      color:white ;
+      background: #000;
+}
+#read:hover{
+      background: transparent;
+      color: red;
+      border: red 1px solid;
+      outline: none;
+      cursor: pointer;
+}
+#hire:hover{
+      background: transparent;
+      color: black;
+      border: black 1px solid;
+      outline: none;
+      cursor: pointer;
+      
+}
+
+.category{
+      width: 100%;    
+      background: #1CBBB4;
+      height: 500px;
+
+}
+
+.category h1{
+      text-align: center;
+color:white;
+padding: 15px 20px;
+margin-bottom: 90px;
+text-transform: uppercase;
+letter-spacing: 2px;
+position: relative;
+}
+
+.category h1::after{
+      content: '';
+      position: absolute;
+      left: 43%;
+      height: 1px;
+      color: wheat;
+      background: #FFFFFF;
+      width: 200px;
+      bottom: 2px;
+}
+
+.category .imgcont{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      flex-wrap: wrap;
+      gap: 25px 20px;
+}
+
+.category .imgcont .images{
+width:32%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 10px;
+color: white;
+}
+
+.category .imgcont .images img{
+      height: 80px;
+      width: 100px;
+      object-fit: contain;
+}
+.company{
+      width: 100%;
+      height: 620px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+}
+.company .banner{
+      height: 500px;
+      width: 100%;
+      background: url(about-img.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+}
+
+.company p{
+      text-align:center;
+      font-size: 14px;
+      padding: 10px 20px;
+}
+.company button{
+      padding: 10px 60px;
+      margin: 10px 20px;
+      color:white;
+      background: red;
+      outline: none;
+      border: 1px solid red;
+}
+.company button:hover{
+      background: transparent;
+      color: red;
+      border: 1px solid red;
+      outline: none;
+      transition: all ease-in 0.4s;
+      cursor: pointer;
+}
+
+.work{
+      height: 550px;
+      width: 100%;
+      background: whitesmoke;
+      display: flex;
+      align-items: center;
+      justify-content:start;
+     
+      
+      
+}
+
+.work  .content{
+      width: 55%;
+      height: 100%;
+      background-color: #fff;
+      border: 2px solid red;
+      display: flex;
+      align-items: start;
+      justify-content: start;
+      gap: 30px;
+     
+      
+}
+
+.content .ig{
+      width: 100px;
+      height: 10-px;
+      border-radius: 60%;
+   background: #1CBBB4;
+      margin: 10px 20px;
+      display: flex;
+      flex-direction: column;
+     
+    
+
+}
+.content  .ig img{
+     width: 60px;
+     height: 60px;
+     object-fit: contain;
+     padding: 10px 12px;
+}
+
+.content  .ig:hover{
+      background: #000;
+      color: white;
+      
+}
+
+.content  .cont{
+      display: flex;
+      justify-content: start;
+      align-items: start;
+      flex-direction: column;
+}
+.work .pic{
+      width: 45%;
+      height: 100%;
+      background: url(freelance-img.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: cover;
+}
+.navfooter{
+      width: 100%;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: gold;
+}
+.footer{
+      width: 100%;
+      height: 500px;
+      background:black;
+display: flex;
+align-content: center;
+justify-content: start;
+border: 2px solid red;
+gap: 10px;
+}
+
+.footer .links{
+      width: 25%;
+      height: 100%;
+      border: 1px solid green;
+}
+.footer .offices{
+      width: 25%;
+      height: 100%;
+      border: 1px solid green;
+}
+.footer .info{
+      width: 25%;
+      height: 100%;
+      border: 1px solid green;
+}
+.footer .newsletter{
+      width: 25%;
+      height: 100%;
+      border: 1px solid green;
+}
